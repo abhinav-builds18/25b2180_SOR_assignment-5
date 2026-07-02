@@ -1,0 +1,74 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ubuntu/Session5/build/bme_ros2_navigation
+-- Install configuration: ""
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/launch
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/launch/spawn_robot.launch.py
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/launch/world.launch.py
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/launch/check_urdf.launch.py
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/launch/mapping.launch.py
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/worlds
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/worlds/empty.sdf
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/worlds/home.sdf
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/rviz
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/rviz/urdf.rviz
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/rviz/rviz.rviz
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/rviz/mapping.rviz
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/rviz/navigation.rviz
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/rviz/localization.rviz
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/urdf
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/urdf/mogi_bot.gazebo
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/urdf/mogi_bot.urdf
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/urdf/materials.xacro
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/meshes
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/meshes/lidar.dae
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/meshes/wheel.dae
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/meshes/mogi_bot.dae
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/config
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/config/slam_toolbox_mapping.yaml
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/config/navigation.yaml
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/config/amcl_localization.yaml
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/config/slam_toolbox_localization.yaml
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/config/ekf.yaml
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/config/waypoints.yaml
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/config/gz_bridge.yaml
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/maps
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/maps/serialized.posegraph
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/maps/my_map.pgm
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/maps/my_map.yaml
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/maps/serialized.data
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/ament_index/resource_index/package_run_dependencies/bme_ros2_navigation
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/ament_index/resource_index/parent_prefix_path/bme_ros2_navigation
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/environment/path.sh
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/environment/path.dsv
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/local_setup.bash
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/local_setup.sh
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/local_setup.zsh
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/local_setup.dsv
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/package.dsv
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/ament_index/resource_index/packages/bme_ros2_navigation
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/cmake/bme_ros2_navigationConfig.cmake
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/cmake/bme_ros2_navigationConfig-version.cmake
+-- Installing: /home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/package.xml

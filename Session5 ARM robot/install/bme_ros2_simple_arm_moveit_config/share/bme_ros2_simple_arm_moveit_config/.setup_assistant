@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: bme_ros2_simple_arm
+    relative_path: urdf/mogi_arm.xacro
+  srdf:
+    relative_path: config/mogi_arm.srdf
+  package_settings:
+    author_name: abhinav
+    author_email: mathankarabhinav87@gmail.com
+    generated_timestamp: 1782839154

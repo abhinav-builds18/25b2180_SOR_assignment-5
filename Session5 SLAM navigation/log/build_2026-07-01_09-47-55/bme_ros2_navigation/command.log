@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu/Session5/build/bme_ros2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/Session5/bme_ros2_navigation -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Session5/install/bme_ros2_navigation
+Invoked command in '/home/ubuntu/Session5/build/bme_ros2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/Session5/bme_ros2_navigation -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Session5/install/bme_ros2_navigation
+Invoking command in '/home/ubuntu/Session5/build/bme_ros2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/Session5/build/bme_ros2_navigation -- -j24 -l24
+Invoked command in '/home/ubuntu/Session5/build/bme_ros2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/Session5/build/bme_ros2_navigation -- -j24 -l24
+Invoking command in '/home/ubuntu/Session5/build/bme_ros2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/Session5/build/bme_ros2_navigation
+Invoked command in '/home/ubuntu/Session5/build/bme_ros2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/Session5/build/bme_ros2_navigation

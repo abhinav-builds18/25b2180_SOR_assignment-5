@@ -1,0 +1,57 @@
+[0.008s] Invoking command in '/home/ubuntu/Session5/build/bme_ros2_simple_arm_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/install/trajectory_server:/home/ubuntu/install/ros2_robot_sim:/home/ubuntu/install/robot_bringup:/home/ubuntu/install/erc_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/Session5/bme_ros2_simple_arm_moveit_config -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config
+[0.214s] -- The C compiler identification is GNU 13.3.0
+[0.333s] -- The CXX compiler identification is GNU 13.3.0
+[0.355s] -- Detecting C compiler ABI info
+[0.441s] -- Detecting C compiler ABI info - done
+[0.446s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.448s] -- Detecting C compile features
+[0.449s] -- Detecting C compile features - done
+[0.457s] -- Detecting CXX compiler ABI info
+[0.535s] -- Detecting CXX compiler ABI info - done
+[0.541s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.541s] -- Detecting CXX compile features
+[0.541s] -- Detecting CXX compile features - done
+[0.673s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.808s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.060s] -- Configuring done (1.0s)
+[1.064s] -- Generating done (0.0s)
+[1.065s] -- Build files have been written to: /home/ubuntu/Session5/build/bme_ros2_simple_arm_moveit_config
+[1.069s] Invoked command in '/home/ubuntu/Session5/build/bme_ros2_simple_arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/install/trajectory_server:/home/ubuntu/install/ros2_robot_sim:/home/ubuntu/install/robot_bringup:/home/ubuntu/install/erc_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/Session5/bme_ros2_simple_arm_moveit_config -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config
+[1.070s] Invoking command in '/home/ubuntu/Session5/build/bme_ros2_simple_arm_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/install/trajectory_server:/home/ubuntu/install/ros2_robot_sim:/home/ubuntu/install/robot_bringup:/home/ubuntu/install/erc_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/Session5/build/bme_ros2_simple_arm_moveit_config -- -j24 -l24
+[1.101s] Invoked command in '/home/ubuntu/Session5/build/bme_ros2_simple_arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/install/trajectory_server:/home/ubuntu/install/ros2_robot_sim:/home/ubuntu/install/robot_bringup:/home/ubuntu/install/erc_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/Session5/build/bme_ros2_simple_arm_moveit_config -- -j24 -l24
+[1.102s] Invoking command in '/home/ubuntu/Session5/build/bme_ros2_simple_arm_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/install/trajectory_server:/home/ubuntu/install/ros2_robot_sim:/home/ubuntu/install/robot_bringup:/home/ubuntu/install/erc_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/Session5/build/bme_ros2_simple_arm_moveit_config
+[1.108s] -- Install configuration: ""
+[1.109s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/ament_index/resource_index/package_run_dependencies/bme_ros2_simple_arm_moveit_config
+[1.109s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/ament_index/resource_index/parent_prefix_path/bme_ros2_simple_arm_moveit_config
+[1.111s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/environment/ament_prefix_path.sh
+[1.111s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/environment/ament_prefix_path.dsv
+[1.111s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/environment/path.sh
+[1.112s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/environment/path.dsv
+[1.112s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/local_setup.bash
+[1.112s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/local_setup.sh
+[1.112s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/local_setup.zsh
+[1.112s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/local_setup.dsv
+[1.112s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/package.dsv
+[1.112s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/ament_index/resource_index/packages/bme_ros2_simple_arm_moveit_config
+[1.113s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/cmake/bme_ros2_simple_arm_moveit_configConfig.cmake
+[1.113s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/cmake/bme_ros2_simple_arm_moveit_configConfig-version.cmake
+[1.113s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/package.xml
+[1.113s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/launch
+[1.113s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/launch/setup_assistant.launch.py
+[1.114s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[1.114s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/launch/move_group.launch.py
+[1.114s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/launch/demo.launch.py
+[1.115s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/launch/rsp.launch.py
+[1.115s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/launch/spawn_controllers.launch.py
+[1.115s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/launch/moveit_rviz.launch.py
+[1.116s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/launch/warehouse_db.launch.py
+[1.116s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/config
+[1.116s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/config/pilz_cartesian_limits.yaml
+[1.117s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/config/mogi_arm.srdf
+[1.117s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/config/kinematics.yaml
+[1.117s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/config/ros2_controllers.yaml
+[1.118s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/config/moveit_controllers.yaml
+[1.118s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/config/moveit.rviz
+[1.118s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/config/joint_limits.yaml
+[1.118s] -- Installing: /home/ubuntu/Session5/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/.setup_assistant
+[1.120s] Invoked command in '/home/ubuntu/Session5/build/bme_ros2_simple_arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/install/trajectory_server:/home/ubuntu/install/ros2_robot_sim:/home/ubuntu/install/robot_bringup:/home/ubuntu/install/erc_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/Session5/build/bme_ros2_simple_arm_moveit_config

@@ -1,0 +1,19 @@
+[0.805s] Invoking command in '/home/ubuntu/Session5/bme_ros2_simple_arm_py': PYTHONPATH=/home/ubuntu/Session5/build/bme_ros2_simple_arm_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Session5/install/bme_ros2_simple_arm_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bme_ros2_simple_arm_py build --build-base /home/ubuntu/Session5/build/bme_ros2_simple_arm_py/build install --record /home/ubuntu/Session5/build/bme_ros2_simple_arm_py/install.log --install-scripts $base/lib/bme_ros2_simple_arm_py --single-version-externally-managed install_data
+[0.991s] running egg_info
+[1.005s] writing ../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/PKG-INFO
+[1.005s] writing dependency_links to ../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/dependency_links.txt
+[1.006s] writing requirements to ../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/requires.txt
+[1.006s] writing top-level names to ../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/top_level.txt
+[1.034s] reading manifest file '../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/SOURCES.txt'
+[1.035s] writing manifest file '../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/SOURCES.txt'
+[1.035s] running build
+[1.035s] running build_py
+[1.035s] running install
+[1.039s] running install_lib
+[1.052s] running install_data
+[1.052s] running install_egg_info
+[1.067s] removing '/home/ubuntu/Session5/install/bme_ros2_simple_arm_py/lib/python3.12/site-packages/bme_ros2_simple_arm_py-0.0.0-py3.12.egg-info' (and everything under it)
+[1.069s] Copying ../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info to /home/ubuntu/Session5/install/bme_ros2_simple_arm_py/lib/python3.12/site-packages/bme_ros2_simple_arm_py-0.0.0-py3.12.egg-info
+[1.070s] running install_scripts
+[1.168s] writing list of installed files to '/home/ubuntu/Session5/build/bme_ros2_simple_arm_py/install.log'
+[1.195s] Invoked command in '/home/ubuntu/Session5/bme_ros2_simple_arm_py' returned '0': PYTHONPATH=/home/ubuntu/Session5/build/bme_ros2_simple_arm_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Session5/install/bme_ros2_simple_arm_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bme_ros2_simple_arm_py build --build-base /home/ubuntu/Session5/build/bme_ros2_simple_arm_py/build install --record /home/ubuntu/Session5/build/bme_ros2_simple_arm_py/install.log --install-scripts $base/lib/bme_ros2_simple_arm_py --single-version-externally-managed install_data

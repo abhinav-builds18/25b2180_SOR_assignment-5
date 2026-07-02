@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/PKG-INFO
+../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/SOURCES.txt
+../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/dependency_links.txt
+../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/requires.txt
+../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/top_level.txt
+../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/zip-safe
+bme_ros2_simple_arm_py/__init__.py
+bme_ros2_simple_arm_py/test_inverse_kinematics.py
+resource/bme_ros2_simple_arm_py

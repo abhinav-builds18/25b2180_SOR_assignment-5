@@ -1,0 +1,2 @@
+[console_scripts]
+manual_ik_node = arm_ik_solver.manual_ik_node:main

@@ -1,0 +1,5 @@
+  File "/home/ubuntu/Session5/install/arm_ik_solver/lib/python3.12/site-packages/arm_ik_solver/manual_ik_node.py", line 1
+    ]#!/usr/bin/env python3
+    ^
+SyntaxError: unmatched ']'
+

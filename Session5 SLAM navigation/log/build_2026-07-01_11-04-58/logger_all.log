@@ -1,0 +1,227 @@
+[0.077s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'bme_ros2_navigation', 'bme_ros2_navigation_py', 'mogi_trajectory_server']
+[0.077s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['bme_ros2_navigation', 'bme_ros2_navigation_py', 'mogi_trajectory_server'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7774770fbd70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77747709f140>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77747709f140>>, mixin_verb=('build',))
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.107s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/Session5'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(bme_ros2_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(bme_ros2_navigation) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(bme_ros2_navigation) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(bme_ros2_navigation) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(bme_ros2_navigation) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(bme_ros2_navigation) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(bme_ros2_navigation) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(bme_ros2_navigation) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(bme_ros2_navigation) by extension 'ros'
+[0.129s] DEBUG:colcon.colcon_core.package_identification:Package 'bme_ros2_navigation' with type 'ros.ament_cmake' and name 'bme_ros2_navigation'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(bme_ros2_navigation_py) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(bme_ros2_navigation_py) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(bme_ros2_navigation_py) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(bme_ros2_navigation_py) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(bme_ros2_navigation_py) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(bme_ros2_navigation_py) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(bme_ros2_navigation_py) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(bme_ros2_navigation_py) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(bme_ros2_navigation_py) by extension 'ros'
+[0.129s] DEBUG:colcon.colcon_core.package_identification:Package 'bme_ros2_navigation_py' with type 'ros.ament_python' and name 'bme_ros2_navigation_py'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(mogi_trajectory_server) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(mogi_trajectory_server) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(mogi_trajectory_server) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(mogi_trajectory_server) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(mogi_trajectory_server) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(mogi_trajectory_server) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(mogi_trajectory_server) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(mogi_trajectory_server) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(mogi_trajectory_server) by extension 'ros'
+[0.130s] DEBUG:colcon.colcon_core.package_identification:Package 'mogi_trajectory_server' with type 'ros.ament_python' and name 'mogi_trajectory_server'
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.144s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/ubuntu/Session5/install
+[0.146s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 447 installed packages in /opt/ros/jazzy
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'cmake_target' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.185s] DEBUG:colcon.colcon_core.verb:Building package 'bme_ros2_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/Session5/build/bme_ros2_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/Session5/install/bme_ros2_navigation', 'merge_install': False, 'path': '/home/ubuntu/Session5/bme_ros2_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'cmake_target' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.186s] DEBUG:colcon.colcon_core.verb:Building package 'bme_ros2_navigation_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/Session5/build/bme_ros2_navigation_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/Session5/install/bme_ros2_navigation_py', 'merge_install': False, 'path': '/home/ubuntu/Session5/bme_ros2_navigation_py', 'symlink_install': False, 'test_result_base': None}
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'cmake_target' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.186s] DEBUG:colcon.colcon_core.verb:Building package 'mogi_trajectory_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/Session5/build/mogi_trajectory_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/Session5/install/mogi_trajectory_server', 'merge_install': False, 'path': '/home/ubuntu/Session5/mogi_trajectory_server', 'symlink_install': False, 'test_result_base': None}
+[0.186s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.187s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.187s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/Session5/bme_ros2_navigation' with build type 'ament_cmake'
+[0.187s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/Session5/bme_ros2_navigation'
+[0.189s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.189s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.189s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.193s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/Session5/bme_ros2_navigation_py' with build type 'ament_python'
+[0.193s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme_ros2_navigation_py', 'ament_prefix_path')
+[0.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Session5/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/hook/ament_prefix_path.ps1'
+[0.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Session5/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/hook/ament_prefix_path.dsv'
+[0.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Session5/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/hook/ament_prefix_path.sh'
+[0.194s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.194s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.197s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/Session5/mogi_trajectory_server' with build type 'ament_python'
+[0.197s] Level 1:colcon.colcon_core.shell:create_environment_hook('mogi_trajectory_server', 'ament_prefix_path')
+[0.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Session5/install/mogi_trajectory_server/share/mogi_trajectory_server/hook/ament_prefix_path.ps1'
+[0.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Session5/install/mogi_trajectory_server/share/mogi_trajectory_server/hook/ament_prefix_path.dsv'
+[0.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Session5/install/mogi_trajectory_server/share/mogi_trajectory_server/hook/ament_prefix_path.sh'
+[0.198s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.198s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Session5/build/bme_ros2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Session5/install/mogi_trajectory_server:/home/ubuntu/Session5/install/bme_ros2_navigation_py:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/Session5/build/bme_ros2_navigation -- -j24 -l24
+[0.363s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/Session5/bme_ros2_navigation_py'
+[0.363s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.363s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Session5/build/bme_ros2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Session5/install/mogi_trajectory_server:/home/ubuntu/Session5/install/bme_ros2_navigation_py:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/Session5/build/bme_ros2_navigation -- -j24 -l24
+[0.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Session5/build/bme_ros2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Session5/install/mogi_trajectory_server:/home/ubuntu/Session5/install/bme_ros2_navigation_py:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/Session5/build/bme_ros2_navigation
+[0.532s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/Session5/mogi_trajectory_server'
+[0.533s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.533s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.544s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bme_ros2_navigation)
+[0.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Session5/build/bme_ros2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Session5/install/mogi_trajectory_server:/home/ubuntu/Session5/install/bme_ros2_navigation_py:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/Session5/build/bme_ros2_navigation
+[0.546s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/bme_ros2_navigation' for CMake module files
+[0.546s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/bme_ros2_navigation' for CMake config files
+[0.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme_ros2_navigation', 'cmake_prefix_path')
+[0.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/hook/cmake_prefix_path.ps1'
+[0.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/hook/cmake_prefix_path.dsv'
+[0.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/hook/cmake_prefix_path.sh'
+[0.548s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/bme_ros2_navigation/bin'
+[0.548s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/bme_ros2_navigation/lib/pkgconfig/bme_ros2_navigation.pc'
+[0.548s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/bme_ros2_navigation/lib/python3.12/site-packages'
+[0.548s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/bme_ros2_navigation/bin'
+[0.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/package.ps1'
+[0.549s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/package.dsv'
+[0.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/package.sh'
+[0.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/package.bash'
+[0.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/package.zsh'
+[0.550s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Session5/install/bme_ros2_navigation/share/colcon-core/packages/bme_ros2_navigation)
+[0.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bme_ros2_navigation)
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/bme_ros2_navigation' for CMake module files
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/bme_ros2_navigation' for CMake config files
+[0.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme_ros2_navigation', 'cmake_prefix_path')
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/hook/cmake_prefix_path.ps1'
+[0.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/hook/cmake_prefix_path.dsv'
+[0.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/hook/cmake_prefix_path.sh'
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/bme_ros2_navigation/bin'
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/bme_ros2_navigation/lib/pkgconfig/bme_ros2_navigation.pc'
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/bme_ros2_navigation/lib/python3.12/site-packages'
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/bme_ros2_navigation/bin'
+[0.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/package.ps1'
+[0.553s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/package.dsv'
+[0.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/package.sh'
+[0.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/package.bash'
+[0.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Session5/install/bme_ros2_navigation/share/bme_ros2_navigation/package.zsh'
+[0.555s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Session5/install/bme_ros2_navigation/share/colcon-core/packages/bme_ros2_navigation)
+[0.983s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: init_catalog, bdist_dumb, editable_wheel, rotate, bdist_wheel, install_scripts, dist_info, upload, setopt, sdist, develop, saveopts, check, test, bdist, build_ext, compile_catalog, alias, build_clib, build_py, symlink_data, upload_docs, register, install, bdist_egg, extract_messages, install_egg_info, install_lib, build_scripts, build, install_headers, easy_install, bdist_rpm, clean, egg_info, install_data, update_catalog
+[0.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Session5/bme_ros2_navigation_py': PYTHONPATH=/home/ubuntu/Session5/build/bme_ros2_navigation_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Session5/install/bme_ros2_navigation_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bme_ros2_navigation_py build --build-base /home/ubuntu/Session5/build/bme_ros2_navigation_py/build install --record /home/ubuntu/Session5/build/bme_ros2_navigation_py/install.log --install-scripts $base/lib/bme_ros2_navigation_py --single-version-externally-managed install_data
+[0.992s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: init_catalog, bdist_dumb, editable_wheel, rotate, bdist_wheel, install_scripts, dist_info, upload, setopt, sdist, develop, saveopts, check, test, bdist, build_ext, compile_catalog, alias, build_clib, build_py, symlink_data, upload_docs, register, install, bdist_egg, extract_messages, install_egg_info, install_lib, build_scripts, build, install_headers, easy_install, bdist_rpm, clean, egg_info, install_data, update_catalog
+[0.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Session5/mogi_trajectory_server': PYTHONPATH=/home/ubuntu/Session5/build/mogi_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Session5/install/mogi_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mogi_trajectory_server build --build-base /home/ubuntu/Session5/build/mogi_trajectory_server/build install --record /home/ubuntu/Session5/build/mogi_trajectory_server/install.log --install-scripts $base/lib/mogi_trajectory_server --single-version-externally-managed install_data
+[1.366s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/mogi_trajectory_server' for CMake module files
+[1.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Session5/mogi_trajectory_server' returned '0': PYTHONPATH=/home/ubuntu/Session5/build/mogi_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Session5/install/mogi_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mogi_trajectory_server build --build-base /home/ubuntu/Session5/build/mogi_trajectory_server/build install --record /home/ubuntu/Session5/build/mogi_trajectory_server/install.log --install-scripts $base/lib/mogi_trajectory_server --single-version-externally-managed install_data
+[1.367s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/mogi_trajectory_server' for CMake config files
+[1.367s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/mogi_trajectory_server/lib'
+[1.368s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/mogi_trajectory_server/bin'
+[1.368s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/mogi_trajectory_server/lib/pkgconfig/mogi_trajectory_server.pc'
+[1.368s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/mogi_trajectory_server/lib/python3.12/site-packages'
+[1.368s] Level 1:colcon.colcon_core.shell:create_environment_hook('mogi_trajectory_server', 'pythonpath')
+[1.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Session5/install/mogi_trajectory_server/share/mogi_trajectory_server/hook/pythonpath.ps1'
+[1.368s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Session5/install/mogi_trajectory_server/share/mogi_trajectory_server/hook/pythonpath.dsv'
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Session5/install/mogi_trajectory_server/share/mogi_trajectory_server/hook/pythonpath.sh'
+[1.369s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/mogi_trajectory_server/bin'
+[1.369s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mogi_trajectory_server)
+[1.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Session5/install/mogi_trajectory_server/share/mogi_trajectory_server/package.ps1'
+[1.370s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Session5/install/mogi_trajectory_server/share/mogi_trajectory_server/package.dsv'
+[1.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Session5/install/mogi_trajectory_server/share/mogi_trajectory_server/package.sh'
+[1.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Session5/install/mogi_trajectory_server/share/mogi_trajectory_server/package.bash'
+[1.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Session5/install/mogi_trajectory_server/share/mogi_trajectory_server/package.zsh'
+[1.371s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Session5/install/mogi_trajectory_server/share/colcon-core/packages/mogi_trajectory_server)
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/bme_ros2_navigation_py' for CMake module files
+[1.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Session5/bme_ros2_navigation_py' returned '0': PYTHONPATH=/home/ubuntu/Session5/build/bme_ros2_navigation_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Session5/install/bme_ros2_navigation_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bme_ros2_navigation_py build --build-base /home/ubuntu/Session5/build/bme_ros2_navigation_py/build install --record /home/ubuntu/Session5/build/bme_ros2_navigation_py/install.log --install-scripts $base/lib/bme_ros2_navigation_py --single-version-externally-managed install_data
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/bme_ros2_navigation_py' for CMake config files
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/bme_ros2_navigation_py/lib'
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/bme_ros2_navigation_py/bin'
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/bme_ros2_navigation_py/lib/pkgconfig/bme_ros2_navigation_py.pc'
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/bme_ros2_navigation_py/lib/python3.12/site-packages'
+[1.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme_ros2_navigation_py', 'pythonpath')
+[1.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Session5/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/hook/pythonpath.ps1'
+[1.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Session5/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/hook/pythonpath.dsv'
+[1.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Session5/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/hook/pythonpath.sh'
+[1.375s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Session5/install/bme_ros2_navigation_py/bin'
+[1.375s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bme_ros2_navigation_py)
+[1.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Session5/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/package.ps1'
+[1.375s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Session5/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/package.dsv'
+[1.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Session5/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/package.sh'
+[1.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Session5/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/package.bash'
+[1.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Session5/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/package.zsh'
+[1.376s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Session5/install/bme_ros2_navigation_py/share/colcon-core/packages/bme_ros2_navigation_py)
+[1.376s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.377s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.377s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.377s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.390s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.390s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.390s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.476s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.476s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Session5/install/local_setup.ps1'
+[1.477s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/Session5/install/_local_setup_util_ps1.py'
+[1.478s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Session5/install/setup.ps1'
+[1.478s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Session5/install/local_setup.sh'
+[1.479s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/Session5/install/_local_setup_util_sh.py'
+[1.479s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Session5/install/setup.sh'
+[1.480s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Session5/install/local_setup.bash'
+[1.480s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Session5/install/setup.bash'
+[1.481s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Session5/install/local_setup.zsh'
+[1.481s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Session5/install/setup.zsh'

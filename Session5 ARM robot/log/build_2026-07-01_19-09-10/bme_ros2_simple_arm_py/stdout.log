@@ -1,0 +1,33 @@
+running egg_info
+creating ../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info
+writing ../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/PKG-INFO
+writing dependency_links to ../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/dependency_links.txt
+writing requirements to ../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/requires.txt
+writing top-level names to ../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/top_level.txt
+writing manifest file '../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/SOURCES.txt'
+reading manifest file '../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/SOURCES.txt'
+writing manifest file '../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/Session5/build/bme_ros2_simple_arm_py/build
+creating /home/ubuntu/Session5/build/bme_ros2_simple_arm_py/build/lib
+creating /home/ubuntu/Session5/build/bme_ros2_simple_arm_py/build/lib/bme_ros2_simple_arm_py
+copying bme_ros2_simple_arm_py/test_inverse_kinematics.py -> /home/ubuntu/Session5/build/bme_ros2_simple_arm_py/build/lib/bme_ros2_simple_arm_py
+copying bme_ros2_simple_arm_py/__init__.py -> /home/ubuntu/Session5/build/bme_ros2_simple_arm_py/build/lib/bme_ros2_simple_arm_py
+running install
+running install_lib
+creating /home/ubuntu/Session5/install/bme_ros2_simple_arm_py/lib/python3.12/site-packages/bme_ros2_simple_arm_py
+copying /home/ubuntu/Session5/build/bme_ros2_simple_arm_py/build/lib/bme_ros2_simple_arm_py/test_inverse_kinematics.py -> /home/ubuntu/Session5/install/bme_ros2_simple_arm_py/lib/python3.12/site-packages/bme_ros2_simple_arm_py
+copying /home/ubuntu/Session5/build/bme_ros2_simple_arm_py/build/lib/bme_ros2_simple_arm_py/__init__.py -> /home/ubuntu/Session5/install/bme_ros2_simple_arm_py/lib/python3.12/site-packages/bme_ros2_simple_arm_py
+byte-compiling /home/ubuntu/Session5/install/bme_ros2_simple_arm_py/lib/python3.12/site-packages/bme_ros2_simple_arm_py/test_inverse_kinematics.py to test_inverse_kinematics.cpython-312.pyc
+byte-compiling /home/ubuntu/Session5/install/bme_ros2_simple_arm_py/lib/python3.12/site-packages/bme_ros2_simple_arm_py/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/ubuntu/Session5/install/bme_ros2_simple_arm_py/share/ament_index
+creating /home/ubuntu/Session5/install/bme_ros2_simple_arm_py/share/ament_index/resource_index
+creating /home/ubuntu/Session5/install/bme_ros2_simple_arm_py/share/ament_index/resource_index/packages
+copying resource/bme_ros2_simple_arm_py -> /home/ubuntu/Session5/install/bme_ros2_simple_arm_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/Session5/install/bme_ros2_simple_arm_py/share/bme_ros2_simple_arm_py
+running install_egg_info
+Copying ../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info to /home/ubuntu/Session5/install/bme_ros2_simple_arm_py/lib/python3.12/site-packages/bme_ros2_simple_arm_py-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/ubuntu/Session5/build/bme_ros2_simple_arm_py/install.log'

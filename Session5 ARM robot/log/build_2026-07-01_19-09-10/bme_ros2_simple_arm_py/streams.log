@@ -1,0 +1,35 @@
+[1.175s] Invoking command in '/home/ubuntu/Session5/bme_ros2_simple_arm_py': PYTHONPATH=/home/ubuntu/Session5/build/bme_ros2_simple_arm_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Session5/install/bme_ros2_simple_arm_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bme_ros2_simple_arm_py build --build-base /home/ubuntu/Session5/build/bme_ros2_simple_arm_py/build install --record /home/ubuntu/Session5/build/bme_ros2_simple_arm_py/install.log --install-scripts $base/lib/bme_ros2_simple_arm_py --single-version-externally-managed install_data
+[1.358s] running egg_info
+[1.358s] creating ../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info
+[1.370s] writing ../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/PKG-INFO
+[1.373s] writing dependency_links to ../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/dependency_links.txt
+[1.373s] writing requirements to ../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/requires.txt
+[1.373s] writing top-level names to ../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/top_level.txt
+[1.373s] writing manifest file '../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/SOURCES.txt'
+[1.399s] reading manifest file '../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/SOURCES.txt'
+[1.399s] writing manifest file '../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info/SOURCES.txt'
+[1.399s] running build
+[1.400s] running build_py
+[1.400s] creating /home/ubuntu/Session5/build/bme_ros2_simple_arm_py/build
+[1.400s] creating /home/ubuntu/Session5/build/bme_ros2_simple_arm_py/build/lib
+[1.401s] creating /home/ubuntu/Session5/build/bme_ros2_simple_arm_py/build/lib/bme_ros2_simple_arm_py
+[1.401s] copying bme_ros2_simple_arm_py/test_inverse_kinematics.py -> /home/ubuntu/Session5/build/bme_ros2_simple_arm_py/build/lib/bme_ros2_simple_arm_py
+[1.401s] copying bme_ros2_simple_arm_py/__init__.py -> /home/ubuntu/Session5/build/bme_ros2_simple_arm_py/build/lib/bme_ros2_simple_arm_py
+[1.402s] running install
+[1.406s] running install_lib
+[1.419s] creating /home/ubuntu/Session5/install/bme_ros2_simple_arm_py/lib/python3.12/site-packages/bme_ros2_simple_arm_py
+[1.419s] copying /home/ubuntu/Session5/build/bme_ros2_simple_arm_py/build/lib/bme_ros2_simple_arm_py/test_inverse_kinematics.py -> /home/ubuntu/Session5/install/bme_ros2_simple_arm_py/lib/python3.12/site-packages/bme_ros2_simple_arm_py
+[1.420s] copying /home/ubuntu/Session5/build/bme_ros2_simple_arm_py/build/lib/bme_ros2_simple_arm_py/__init__.py -> /home/ubuntu/Session5/install/bme_ros2_simple_arm_py/lib/python3.12/site-packages/bme_ros2_simple_arm_py
+[1.420s] byte-compiling /home/ubuntu/Session5/install/bme_ros2_simple_arm_py/lib/python3.12/site-packages/bme_ros2_simple_arm_py/test_inverse_kinematics.py to test_inverse_kinematics.cpython-312.pyc
+[1.421s] byte-compiling /home/ubuntu/Session5/install/bme_ros2_simple_arm_py/lib/python3.12/site-packages/bme_ros2_simple_arm_py/__init__.py to __init__.cpython-312.pyc
+[1.421s] running install_data
+[1.421s] creating /home/ubuntu/Session5/install/bme_ros2_simple_arm_py/share/ament_index
+[1.421s] creating /home/ubuntu/Session5/install/bme_ros2_simple_arm_py/share/ament_index/resource_index
+[1.422s] creating /home/ubuntu/Session5/install/bme_ros2_simple_arm_py/share/ament_index/resource_index/packages
+[1.422s] copying resource/bme_ros2_simple_arm_py -> /home/ubuntu/Session5/install/bme_ros2_simple_arm_py/share/ament_index/resource_index/packages
+[1.423s] copying package.xml -> /home/ubuntu/Session5/install/bme_ros2_simple_arm_py/share/bme_ros2_simple_arm_py
+[1.423s] running install_egg_info
+[1.437s] Copying ../build/bme_ros2_simple_arm_py/bme_ros2_simple_arm_py.egg-info to /home/ubuntu/Session5/install/bme_ros2_simple_arm_py/lib/python3.12/site-packages/bme_ros2_simple_arm_py-0.0.0-py3.12.egg-info
+[1.437s] running install_scripts
+[1.535s] writing list of installed files to '/home/ubuntu/Session5/build/bme_ros2_simple_arm_py/install.log'
+[1.558s] Invoked command in '/home/ubuntu/Session5/bme_ros2_simple_arm_py' returned '0': PYTHONPATH=/home/ubuntu/Session5/build/bme_ros2_simple_arm_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Session5/install/bme_ros2_simple_arm_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bme_ros2_simple_arm_py build --build-base /home/ubuntu/Session5/build/bme_ros2_simple_arm_py/build install --record /home/ubuntu/Session5/build/bme_ros2_simple_arm_py/install.log --install-scripts $base/lib/bme_ros2_simple_arm_py --single-version-externally-managed install_data

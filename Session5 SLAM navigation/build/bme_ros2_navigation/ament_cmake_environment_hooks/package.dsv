@@ -1,0 +1,4 @@
+source;share/bme_ros2_navigation/local_setup.bash
+source;share/bme_ros2_navigation/local_setup.dsv
+source;share/bme_ros2_navigation/local_setup.sh
+source;share/bme_ros2_navigation/local_setup.zsh

@@ -1,0 +1,6 @@
+source;share/bme_ros2_simple_arm_py/hook/pythonpath.ps1
+source;share/bme_ros2_simple_arm_py/hook/pythonpath.dsv
+source;share/bme_ros2_simple_arm_py/hook/pythonpath.sh
+source;share/bme_ros2_simple_arm_py/hook/ament_prefix_path.ps1
+source;share/bme_ros2_simple_arm_py/hook/ament_prefix_path.dsv
+source;share/bme_ros2_simple_arm_py/hook/ament_prefix_path.sh
